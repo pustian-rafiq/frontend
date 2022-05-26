@@ -1,0 +1,55 @@
+.input_style{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0,0.15);
+    margin-bottom: 5px;
+}
+
+.input_name{
+    font-size: 16px;
+    line-height: 38px;
+    /* margin-bottom: 10px; */
+}
+
+.submit{
+    background-color: var(--primary);
+    padding: 8px 15px;
+    border: 0px;
+    border-radius: 3px;
+    color:aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(7, 128, 150);
+    transition: 1s;
+}
+
+.input_style:focus-visible{
+    outline: 1px solid var(--primary);
+}
+
+/*input placeholder styles */
+.input_style::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 15px;
+}
+.input_style::-moz-placeholder { /* Firefox 19+ */
+   font-size: 15px;
+}
+.input_style:-ms-input-placeholder { /* IE 10+ */
+   font-size: 15px;
+}
+.input_style:-moz-placeholder { /* Firefox 18- */
+   font-size: 15px;
+}
+
+
+ @media only screen and (max-width: 600px) {
+        .input_style{
+           width: 96%;
+           margin-bottom: 13px;   
+           margin-top:5px;
+        }
+ }

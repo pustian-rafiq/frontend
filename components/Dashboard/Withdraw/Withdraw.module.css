@@ -1,0 +1,32 @@
+.upperSection{
+    margin-top: 20px;
+    text-align: left;
+
+}
+.withdrawButton{
+    width: 100%;
+    margin-top: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.verticalDivider{
+margin-top: 40px;
+    width: 2px;
+    height: 100px;
+    border: 2px solid rgb(94, 92, 92);
+    
+}
+.leftSection{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.leftSection h4{
+   font-size: 25px;
+   color: rgb(131, 131, 131);
+   font-weight: normal;
+}
+.leftSection p{
+   font-size: 16px;
+   color: rgb(34, 32, 32);
+   line-height: 25px;
+}

@@ -1,0 +1,289 @@
+
+
+.navbar {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+ 
+}
+
+.navbar a {
+  /* float: left; */
+  font-size: 16px;
+  color: rgb(88, 82, 82);
+  text-align: center;
+  padding: 10px 5px;
+  text-decoration: none;
+  display: block
+}
+
+.dropdown {
+  /* float: left; */
+  overflow: hidden;
+  text-align: left;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 14px!important;  
+  border: none;
+  outline: none;
+  color: #000;
+  font-weight: 500!important;
+  text-align: left;
+  background-color: inherit;
+  font: inherit;
+  margin-left: 10px;
+  cursor: pointer;
+  letter-spacing: 0.4px;
+  
+}
+.dropdown > .dropbtn:hover {
+   color: var(--primary)!important;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /* background-color: red; */
+  transition: 1.5s;
+
+
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width:70%;
+  left: 355px!important;
+  top:140px;
+  padding: 30px;
+  height: 425px;
+  overflow-y: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9999;
+ 
+}
+
+.dropdown_content .header {
+  color: white;
+}
+
+/* .dropdown:hover .dropdown_content {
+  display: block;
+} */
+
+.megamenuContainer:hover .dropdown_content {
+  display: block;
+ 
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: rgb(245, 237, 237);
+  height: 450px;
+  overflow: hidden;
+  transition: width 1s linear 1s
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+   color: var(--primary);
+   transition: 1.5s;
+}
+
+.row{
+  column-count: 3;
+  column-gap:25px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width:1150px) {
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: rgb(231, 253, 229);
+  height: 450px;
+  z-index: 1;
+}
+
+}
+
+@media screen and (min-width: 901px) and (max-width:999px) {
+  .dropdown_content{
+
+    width: 75%!important;
+    left: 230px!important;
+}
+}
+
+@media screen and (min-width: 1000px) and (max-width:1049px) {
+  .dropdown_content{
+    width: 75%!important;
+    left: 250px!important;
+}
+}
+
+@media screen and (min-width: 1050px) and (max-width:1099px) {
+  .dropdown_content{
+
+    width: 75%!important;
+    left: 262px!important;
+}
+}
+
+@media screen and (min-width: 1100px) and (max-width:1149px) {
+  .dropdown_content{
+    width: 75%!important;
+    left: 270px!important;
+}
+}
+
+@media screen and (min-width: 1150px) and (max-width:1189px) {
+  .dropdown_content{
+
+    width: 75%!important;
+    left: 285px!important;
+}
+}
+
+@media screen and (min-width: 1190px) and (max-width:1219px) {
+  .dropdown_content{
+    width: 73%!important;
+    left: 305px!important;
+}
+}
+
+@media screen and (min-width: 1220px) and (max-width:1251px) {
+  .dropdown_content{
+    width: 71%!important;
+    left: 318px!important;
+}
+}
+
+@media screen and (min-width: 1252px) and (max-width:1279px) {
+  .dropdown_content{
+    width: 70%!important;
+    left: 338px!important;
+}
+}
+
+@media screen and (min-width: 1280px) and (max-width:1319px) {
+  .dropdown_content{
+     max-width: 68%!important;
+     left: 350px!important;
+ }
+}
+
+@media screen and (min-width: 1320px) and (max-width:1359px) {
+  .dropdown_content{  
+     max-width: 66%!important;
+     left: 373px!important;
+ }
+}
+
+@media screen and (min-width: 1360px) and (max-width:1392px) {
+  .dropdown_content{
+     max-width: 63%!important;
+     left: 390px!important;
+ }
+}
+
+@media screen and (min-width: 1393px) and (max-width:1437px) {
+  .dropdown_content{
+     max-width: 62%!important;
+     left: 410px!important;
+ }
+}
+
+@media screen and (min-width: 1438px) and (max-width:1471px) {
+  .dropdown_content{
+     max-width: 60%!important;
+     left: 430px!important;
+ }
+}
+
+@media screen and (min-width: 1472px) and (max-width:1524px) {
+  .dropdown_content{
+     max-width: 57%!important;
+     left: 450px!important;
+ }
+}
+
+@media screen and (min-width: 1525px) and (max-width:1575px) {
+  .dropdown_content{
+     max-width: 57%!important;
+     left: 475px!important;
+ }
+}
+
+@media screen and (min-width: 1576px) and (max-width:1633px) {
+  .dropdown_content{
+     max-width: 55%!important;
+     left: 500px!important;
+ }
+}
+
+@media screen and (min-width: 1634px) and (max-width:1684px) {
+  .dropdown_content{    
+     max-width: 55%!important;
+     left: 530px!important;
+ }
+}
+
+
+@media screen and (min-width: 1685px) and (max-width:1719px) {
+  .dropdown_content{
+     max-width: 55%!important;
+     left: 555px!important;
+ }
+}
+
+@media screen and (min-width: 1720px) and (max-width:1750px) {
+  .dropdown_content{
+    max-width: 55%!important;
+     left: 570px!important;
+ }
+ }
+ @media screen and (min-width: 1751px) and (max-width:1800px) {
+  .dropdown_content{
+     max-width: 60%!important;
+     left: 590px!important;
+ }
+ }
+
+ @media screen and (min-width: 1801px) and (max-width:1890px) {
+  .dropdown_content{
+     max-width: 60%!important;
+     left: 605px!important;
+ }
+ }
+
+

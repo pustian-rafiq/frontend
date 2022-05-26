@@ -1,0 +1,451 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@font-face {
+  font-family: receptFont;
+  src: url("/frontend/fonts/MerchantCopy.ttf");
+}
+
+@font-face {
+  font-family: EhsanLatoRegular;
+  src: url("/frontend/fonts/Lato-Regular.ttf");
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* CK editor size */
+.ck-editor__editable_inline {
+  min-height: 300px;
+}
+
+/* custom scroll bar  */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2ec4d8;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:root {
+  --primary: rgb(69, 185, 224);
+  --primary-deep: rgb(13, 114, 148);
+  --secondary: rgb(242 245 242 / 57%);
+  --white: #fff;
+  --swiper-navigation-size: 29px !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pwd-container img {
+  cursor: pointer;
+  /* position: absolute; */
+}
+
+.pwd-container > span {
+  margin-left: -28px !important;
+}
+
+/* Dashboard style */
+
+/* Table search section */
+.searchSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+.searchLabel {
+  width: 10%;
+  /* background-color: rgb(241, 244, 247); */
+  background-color: #ebebeb;
+  /* background-color: #45B9E0; */
+  padding: 6px 6px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.searchInput {
+  width: 100%;
+  border: 1px solid rgb(219, 213, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.clearIcon {
+  cursor: pointer;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(231, 230, 228);
+}
+.searchInput input {
+  width: 95%;
+  padding: 7px 3px 7px 3px;
+  border: none;
+  margin-left: 1px;
+}
+.searchInput input::placeholder {
+  font-size: 15px;
+}
+.searchInput input:focus {
+  outline: none;
+  /* border: 1px solid rgb(207, 202, 202); */
+}
+
+.tableBorder {
+  border: 1px solid rgb(199, 194, 194);
+}
+.headbackground {
+  background: rgb(235, 235, 235);
+}
+.rowHover {
+  background: rgb(247, 247, 247);
+}
+.rowHover:hover {
+  background-color: #e3e7e9 !important;
+}
+
+.table .rowHover:nth-child(even) {
+  background-color: #c72424;
+}
+
+.selectButton {
+  background-color: #3abaf4;
+  text-transform: capitalize;
+  padding: 3px 5px;
+  color: #fff;
+}
+.selectButton:hover {
+  background-color: #18a0df;
+}
+.paymentTitle {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.paymentTitle span {
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.horizontalLine {
+  border: 1px solid rgb(209, 209, 209);
+}
+
+/***********************************
+
+    Swipper js prev and Next Icons Details
+
+*****************************************/
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(77, 74, 74) !important;
+  margin-top: -52px !important;
+  height: var(--swiper-navigation-size) !important;
+  z-index: 50 !important;
+}
+
+/***********
+   messenger chat option button
+   
+*************/
+
+.messebger-chat-body:hover .messebger-chat {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+/*Google translator style */
+
+.goog-te-gadget-icon {
+  display: none !important;
+}
+
+.goog-te-gadget-simple {
+  border: 0px solid #fff !important;
+}
+
+/* Responsive table */
+@media screen and (max-width: 800px) {
+  .searchLabel {
+    width: 30%;
+  }
+  .searchInput {
+    width: 100%;
+  }
+}
+
+.imageDiv {
+  border-radius: 50%;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+/*********** delete trash icon  for shoping cart ***************/
+#delete_cart {
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+#delete_cart:hover {
+  border: 1px solid rgb(196, 18, 18) !important;
+}
+
+/**************** What's up chat options styles *********************/
+
+._2rVjT {
+  background-color: rgb(73 184 219) !important;
+}
+
+._1fOYS {
+  border: 1px solid #4cc9e5 !important;
+}
+
+._2W95M {
+  background: rgb(79 206 194) !important;
+}
+
+._1bpcM {
+  /* color: rgb(79 183 206)!important; */
+
+  height: 40px !important;
+  width: 40px !important;
+  bottom: 180px;
+  right: 18px;
+  border: 1px solid rgb(72, 218, 72) !important;
+  /* color: rgb(99, 97, 97); */
+}
+
+._2iWL7 {
+  right: 17px !important;
+  bottom: 61px !important;
+  z-index: 5555;
+}
+
+._2-mAj {
+  border-radius: 20px;
+  padding: 12px 12px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #fefefe;
+  height: 112px;
+  outline: 0;
+}
+
+/************** Main Header Select option Styles *****************/
+#contient {
+  border: none;
+  background: #fff;
+  width: 80% !important;
+  color: #5a5a5a;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#contient:focus-visible {
+  outline: none;
+}
+
+.responsiveSearch {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 0px;
+  width: 90%;
+}
+
+.helperText {
+  color: #229954;
+  font-size: 16px;
+}
+.sectionTitle {
+  background-color: #45b9e0;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.profilePicture {
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+.css-10d9dml-MuiTabs-indicator {
+  position: relative;
+}
+/* .css-10ikq25-MuiButtonBase-root-MuiTab-root, .Mui-selected{
+    background-color: #F2F2F2; 
+    width:100%; 
+ 
+} */
+.css-10ikq25-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #1976d2;
+}
+
+.css-10ikq25-MuiButtonBase-root-MuiTab-root {
+  min-height: 1px;
+  padding: 2px;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  padding: 0px;
+}
+
+/* Historical slider Gallery */
+.historicalGallery img {
+  transition: all 1s ease-in-out;
+}
+.historicalGallery img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  /* border: 1px solid forestgreen; */
+}
+
+/* responsive for all devices in historical gallery  */
+@media only screen and (max-width: 600px) {
+.history_image_small_devices {
+
+  display: block;
+  margin: 0 auto;
+  height: 230px;
+  width: 300px;
+}
+
+}
+
+/* payment method styles  */
+
+.payment_method {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 0 10px;
+  cursor: pointer;
+}
+
+.payment-radio {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  font-size: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  align-items: center;
+}
+
+/* slider notice css  */
+
+#noticeSlider {
+  transition: 1s ease-in-out;
+}
+#noticeSlider img {
+  transform: rotate(-40deg);
+  transition: 1s ease-in-out;
+}
+#noticeSlider:hover img {
+  transform: rotate(15deg);
+}
+
+/* recept purchase order */
+.receipt_container {
+  width: 350px;
+  font-size: 11px;
+  margin: 0 auto;
+  font-family: receptFont;
+  letter-spacing: 1px;
+}
+
+.receipt_container h6 {
+  font-size: 11px;
+}
+.custom_modal_inner_content {
+  background-color: rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+.css-kpdavs {
+  background: linear-gradient(45deg, #79e5a4d4, transparent);
+}
+
+@media only screen and (min-width: 450px) and (max-width: 350px) {
+  .css-5klcrl {
+    width: 50px !important;
+    height: 50px !important;
+    border: 1px solid red;
+  }
+}
+
+/* Drag and drop */
+
+.characters {
+  list-style: none;
+  padding-left: 0;
+}
+
+.characters li {
+  display: flex;
+  align-items: center;
+  border: solid 2px #d0d0d0;
+  border-radius: .2em;
+  padding: .5em .8em .5em .5em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.characters p {
+  max-width: none;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* single product  */
+.Mui-selected {
+    background-color: #33bdff!important;
+    color: white;
+}
+
+ /* .css-13hnvc8.Mui-selected {
+    background-color: #3399FF;
+    color: white;
+} */

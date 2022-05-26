@@ -1,0 +1,112 @@
+.columnSpace{
+   width: 90%;
+   margin-left:50px;
+}
+.rowSpace{
+   margin-bottom: 10px;
+}
+.inputBgColor{
+background-color: #fff;
+}
+
+.saveButton{
+    width: 100%;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+ /* Due commison section style */
+ .submitSection{
+    text-align: center;
+}
+.submitSection h4{
+   margin-top: 20px;
+   font-size: 20px;
+   color: rgba(85, 81, 81, 0.836);
+}
+.submitButton{
+    margin-top: 25px;
+    text-transform: capitalize;
+    background-color: #3abaf4;
+    color: #fff;
+}
+.submitButton:hover{
+    background-color: #1f98cf;
+}
+
+/* Pending section style */
+.paymentButton{
+    background-color: #e7279e;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+.paymentButton:hover{
+    background-color: #a50c6a;
+}
+
+/* Payment selected styles */
+
+.paymentTopSection{
+    margin-top: 0px;
+}
+.paywithBkash{
+    margin-top: 0px;
+    text-align: center;
+}
+/* Paid list style */
+.linkButton{
+    background-color: #1f98cf;
+    padding: 10px 5px 0px 5px;
+    cursor: pointer;
+    color: #fff;
+ 
+    border-radius: 5px;
+    margin-right: 2px;
+}
+/* Invoice details styles */
+.invoiceBorder{
+  padding-bottom: 50px;
+  border-top: 1px solid rgb(199, 194, 194);
+  border-right: 1px solid rgb(199, 194, 194);
+  border-left: 1px solid rgb(199, 194, 194);
+  text-align: center;
+  
+}
+
+.printButton{
+    background-color: #3abaf4;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.printButton:hover{
+    background-color: #1f98cf;
+}
+.title{
+    color: rgb(104, 104, 104);
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.paymentBorder{
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(199, 194, 194);
+    border-right: 1px solid rgb(199, 194, 194);
+    border-left: 1px solid rgb(199, 194, 194);
+    text-align: center;
+
+}
+.topSection{
+    padding: 10px 0px 10px 0px;
+}
+.paymentSelectedTitle{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .paymentSelectedTitle span{
+    color: rgb(122, 122, 122);
+    font-weight: bold;
+    font-size: 24px;
+  }

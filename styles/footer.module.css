@@ -1,0 +1,27 @@
+.footer_Link_Hover:hover{
+  color: #000;
+  transition: 1s;
+
+}
+
+
+
+/***********************
+
+           Footer Responsive for all Devices 
+
+ ************************************/
+
+
+ /* responsive for mobile devices */
+ @media only screen and (max-width: 500px) {
+
+  .responsive_text{
+    font-size: 13px;
+
+  }
+
+ }
+
+
+

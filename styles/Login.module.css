@@ -1,0 +1,56 @@
+
+
+  .login-submit {
+    background-color: #061b18;
+    color: #fff;
+    border-radius: 16px;
+    padding: 7px 30px;
+    letter-spacing: 1px;
+    /* border: 1px solid rgb(172, 166, 166); */
+}
+
+.checkbox_input{
+                display: flex;
+                justify-content: space-between;
+                margin: 12px 0px;
+                font-size: 14px;
+        
+}
+                        
+
+
+@media only screen and (max-width: 504px) and (min-width: 380px)  {
+  .login_responsive {
+    width: 320px!important;
+    height: 500px;
+    top: 80px!important
+  }
+}
+  
+
+@media only screen and (max-width: 379px) and (min-width:320px) {
+  .login_responsive {
+    width: 280px!important;
+     height: 500px;
+    top: 80px!important
+
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .login_responsive {
+    width: 240px!important;
+     height: 530px;
+    top: 40px!important
+
+  }
+
+  .checkbox_input{
+    display: block!important;
+    margin: 15px 0px!important;
+  }
+
+  .remember{
+    line-height: 35px;
+  }
+}

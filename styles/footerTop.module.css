@@ -1,0 +1,62 @@
+
+.listText{
+    margin:6px 0px;
+    display:block;
+    font-size:13px;
+
+}
+
+.listText:hover{
+    color: rgb(0, 204, 255);
+    transition: 0.75s;
+}
+
+.responsive_ftop{
+    font-size: 18px;
+}
+
+/*responsive fot footer top header */
+
+@media only screen and (max-width: 600px) {
+   
+    .listText{
+        font-size: 13px;
+        text-align: center;
+        line-height: 18px;
+
+    }
+
+    .responsive_ftop_hr{
+        width: 100%;
+    }
+
+    .responsive_ftop{
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+
+
+  /*responsive for small devices */
+
+  @media only screen and (min-width: 601px) and (max-width: 800px)  {
+   
+ 
+   
+    .listText{
+        font-size: 13px;
+        line-height: 18px;
+        
+
+    }
+
+    .responsive_ftop_hr{
+        width: 100%;
+    }
+
+    .responsive_ftop{
+      font-size: 16px;
+
+    }
+  }

@@ -1,0 +1,122 @@
+.adminContent h2{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.adminContent p{
+    text-align: center;
+    margin-top:10px;
+}
+/* Register Master User Styles */
+.columnSpace{
+    width: 100%;
+ }
+ .rowSpace{
+    margin-bottom: 10px;
+ }
+ .inputBgColor{
+ background-color: #fff;
+ }
+ 
+ .uploadButton{
+     width:55%;
+     text-transform: capitalize;
+     background-color: rgb(17, 32, 32);
+     text-align: left;
+     color: #fff;
+     display: block;
+
+ }
+ .profileBtn{
+     width:35%;
+     text-transform: capitalize;
+     background-color: rgb(17, 32, 32);
+     text-align: left;
+     color: #fff;
+     display: block;
+ }
+ .uploadButton:hover, .profileBtn:hover{
+     background-color: rgb(106, 143, 143);
+ }
+ .saveButton{
+     width: 100%;
+     margin-top: 25px;
+     text-transform: capitalize;
+ }
+ .signinSection{
+     text-align: center;
+     margin-top: 10px;
+ }
+.signinSection .signinBtn:hover{
+    text-decoration: underline;
+    background-color: #fff;
+    color: aquamarine !important;
+ }
+ .selectHover{
+     background-color: blue;
+ }
+ /* Consumer section styles */
+ .sectionTitle{
+    background-color: #45B9E0;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+ }
+ .updateSection{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+ }
+.refButton{
+    background-color: rgb(96, 104, 218);
+    color: #fff;
+    margin-right: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.rootButton{
+    background-color: rgb(88, 156, 156);
+    color: #fff;
+    margin-right: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.refButton:hover, .rootButton:hover{
+    background-color: rgb(64, 69, 131);
+}
+
+/* Incentives commision styles */
+.editButton{
+background-color: green;
+padding: 10px 5px 2px 5px;
+color: #fff;
+margin: 5px 2px;
+border-radius: 5px;
+}
+.DeleteButton{
+background-color: red;
+padding: 10px 5px 2px 5px;
+color: #fff;
+margin: 3px 2px;
+border-radius: 5px;
+}
+.editButton:hover, .DeleteButton:hover{
+background-color: rgb(78, 78, 95);
+}
+/* .addBtn{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: green;
+   margin-top: 20px;
+   float: right;
+   color: #fff;
+} */

@@ -1,0 +1,37 @@
+.searchTitle{
+  font-size: 20px;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+  .searchLabel{
+    text-align: center;
+    background-color:  #3abaf4;
+    padding: 9px 5px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+  }
+  .searchInput{
+    border: 1px solid rgb(219, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .searchInput input{
+    width:100%;
+    padding: 12px 5px;
+    border: none;
+    margin-left: 1px;
+    outline: none;
+    border-radius: 5px;
+  }
+  .searchInput input::placeholder{
+    font-size: 15px;
+  }
+  .searchInput input:focus{
+
+     /* border: 1px solid rgb(98, 65, 241);  */
+  }
